@@ -152,5 +152,6 @@ cython_debug/
 #.idea/
 
 log
+data
 Archive-2
-models/*
+models

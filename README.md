@@ -13,7 +13,7 @@ Currently this repo is compatible with Tensorflow 1.15.5.
 ## <img src="https://cdn-icons-png.flaticon.com/512/2103/2103832.png" width="25"/> Training
 
 ### JointCNN: A Single Binary CNN Detector
-1. The configuration files for training are saved under ```config/``` folder, where you can define the dataset prefix, training list, model file, attack setting and other hyper-parameters. Use the following command to run the default training configuration:
+    The configuration files for training are saved under ```config/``` folder, where you can define the dataset prefix, training list, model file, attack setting and other hyper-parameters. Use the following command to run the default training configuration:
     ``` Shell
     python train_binary_detector.py config/joint_cnn.py
     ```
@@ -22,7 +22,7 @@ Currently this repo is compatible with Tensorflow 1.15.5.
 *Note: training JointCNN requires one-hot labels (0 for real and 1 for all attacks). Please refer to `config/train_joint.txt` for reference.*  
 
 ### ChimneyCNN: Early Layers + Branching
-1. The configuration files for training are saved under ```config/``` folder, where you can define the dataset prefix, training list, model file, attack setting and other hyper-parameters. Use the following command to run the default training configuration:
+    The configuration files for training are saved under ```config/``` folder, where you can define the dataset prefix, training list, model file, attack setting and other hyper-parameters. Use the following command to run the default training configuration:
     ``` Shell
     python train_chimney_detector.py config/chimney.py
     ```

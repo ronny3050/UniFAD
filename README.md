@@ -57,6 +57,7 @@ The command will create an folder under ```log/Chimney/``` which saves all the c
 [Dropbox](https://www.dropbox.com/s/zapovarnswznlwt/to_ship.tar.xz?dl=0)
 ##### Digital Attack Dataset:
 Digital manipulation attacks are generated via publicly available author codes:
+
 • [DeepFake/Face2Face/FaceSwap](https://github.com/ondyari/FaceForensics)
 
 • [STGAN](https://github.com/csmliu/STGAN)

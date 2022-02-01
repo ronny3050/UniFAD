@@ -1,7 +1,7 @@
 # UniFAD: Universal Face Attack Detection
 By Debayan Deb, Xiaoming Liu, and Anil K. Jain
 
-<a href="https://arxiv.org/abs/1908.05008"><img src="https://raw.githubusercontent.com/ronny3050/UniFAD/master/assets/cover.png" width="80%"></a>
+<a href="https://arxiv.org/pdf/2104.02156"><img src="https://raw.githubusercontent.com/ronny3050/UniFAD/master/assets/cover.png" width="80%"></a>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1000px-Tensorflow_logo.svg.png" align="right" width="100"/>
 
@@ -51,3 +51,29 @@ The command will create an folder under ```log/Chimney/``` which saves all the c
 [Dropbox](https://www.dropbox.com/s/5hgzxhtftlf6fu8/JointCNN.zip?dl=0)
 ##### CHIMNEY-CNN MODEL: 
 [Dropbox](https://www.dropbox.com/s/h43mw561ilgi8or/Chimney.zip?dl=0)
+
+## <img src="https://image.flaticon.com/icons/png/512/816/816167.png" width="25"/> Datasets
+##### Adversarial Face Dataset: 
+[Dropbox](https://www.dropbox.com/s/zapovarnswznlwt/to_ship.tar.xz?dl=0)
+##### Digital Attack Dataset:
+Digital manipulation attacks are generated via publicly available author codes:
+• [DeepFake/Face2Face/FaceSwap](https://github.com/ondyari/FaceForensics)
+• [STGAN](https://github.com/csmliu/STGAN)
+• [StarGAN](https://github.com/yunjey/stargan)
+• [STGAN](https://github.com/NVlabs/stylegan2)
+• [DFFD](http://cvlab.cse.msu.edu/dffd-diverse-fake-face-dataset.html)
+##### Physical Attack Dataset:
+• [SiW](http://cvlab.cse.msu.edu/siw-spoof-in-the-wild-database.html)
+
+<!-- LICENSE -->
+## License
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+Debayan Deb - debdebay@msu.edu
+
+Xiaoming Liu - liuxm@cse.msu.edu
+
+Anil K. Jain - jain@cse.msu.edu

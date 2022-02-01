@@ -13,20 +13,24 @@ Currently this repo is compatible with Tensorflow 1.15.5.
 ## <img src="https://cdn-icons-png.flaticon.com/512/2103/2103832.png" width="25"/> Training
 
 ### JointCNN: A Single Binary CNN Detector
-    The configuration files for training are saved under ```config/``` folder, where you can define the dataset prefix, training list, model file, attack setting and other hyper-parameters. Use the following command to run the default training configuration:
+    
+The configuration files for training are saved under ```config/``` folder, where you can define the dataset prefix, training list, model file, attack setting and other hyper-parameters. Use the following command to run the default training configuration:
     ``` Shell
     python train_binary_detector.py config/joint_cnn.py
     ```
-    The command will create an folder under ```log/JointCNN/``` which saves all the checkpoints, test samples and summaries. The model directory is named as the time you start training.
+
+The command will create an folder under ```log/JointCNN/``` which saves all the checkpoints, test samples and summaries. The model directory is named as the time you start training.
 
 *Note: training JointCNN requires one-hot labels (0 for real and 1 for all attacks). Please refer to `config/train_joint.txt` for reference.*  
 
 ### ChimneyCNN: Early Layers + Branching
-    The configuration files for training are saved under ```config/``` folder, where you can define the dataset prefix, training list, model file, attack setting and other hyper-parameters. Use the following command to run the default training configuration:
+The configuration files for training are saved under ```config/``` folder, where you can define the dataset prefix, training list, model file, attack setting and other hyper-parameters. Use the following command to run the default training configuration:
+    
     ``` Shell
     python train_chimney_detector.py config/chimney.py
     ```
-    The command will create an folder under ```log/Chimney/``` which saves all the checkpoints, test samples and summaries. The model directory is named as the time you start training.
+
+The command will create an folder under ```log/Chimney/``` which saves all the checkpoints, test samples and summaries. The model directory is named as the time you start training.
 
 *Note: training ChimneyCNN requires class-wise labels (0 for real and 1,2,3,... for different attack types). Please refer to `config/train_chimney.txt` for reference.*  
 

@@ -10,7 +10,7 @@ A tensorflow implementation of [UniFAD](https://arxiv.org/pdf/2104.02156), a sta
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1000px-Tensorflow_logo.svg.png" width="25"/> Tensorflow release
 Currently this repo is compatible with Tensorflow 1.15.5.
 
-## <img src="https://t3.ftcdn.net/jpg/03/09/72/76/360_F_309727688_JK0Km2DX8xZHuXMp5U8i9nwezibQL28V.jpg" width="25"/> Training
+## <img src="https://cdn-icons-png.flaticon.com/512/2103/2103832.png" width="25"/> Training
 
 ### JointCNN: A Single Binary CNN Detector
 1. The configuration files for training are saved under ```config/``` folder, where you can define the dataset prefix, training list, model file, attack setting and other hyper-parameters. Use the following command to run the default training configuration:
@@ -30,7 +30,7 @@ Currently this repo is compatible with Tensorflow 1.15.5.
 
 *Note: training ChimneyCNN requires class-wise labels (0 for real and 1,2,3,... for different attack types). Please refer to `config/train_chimney.txt` for reference.*  
 
-### Testing
+## <img src="https://www.marc-jekel.de/media/icon_hu175a232152e93f3c6bae4698ffed542c_28254_512x512_fill_lanczos_center_2.png" width="25"/> Testing
 * Run the test code in the following format:
     ```Shell
     python test_binary_detector.py <PATH_TO_SAVED_MODEL>
@@ -41,7 +41,7 @@ Currently this repo is compatible with Tensorflow 1.15.5.
     python test_binary_detector.py models/JointCNN
     ``` 
 
-## <img src="https://image.flaticon.com/icons/svg/48/48541.svg" width="25"/> Pre-trained Models
+## <img src="https://image.flaticon.com/icons/png/512/816/816167.png" width="25"/> Pre-trained Models
 ##### JOINT-CNN MODEL: 
 [Dropbox](https://www.dropbox.com/s/5hgzxhtftlf6fu8/JointCNN.zip?dl=0)
 ##### CHIMNEY-CNN MODEL: 

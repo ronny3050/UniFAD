@@ -13,7 +13,7 @@ test_dataset_path = 'config/train_chimney.txt' # for visualizing JointCNN perf. 
 
 # The folder to save log and model
 log_base_dir = 'log'
-name = 'jointCNN'
+name = 'JointCNN'
 
 # Target image size for the input of network
 image_size = [160, 160]

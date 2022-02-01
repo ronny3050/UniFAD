@@ -53,9 +53,9 @@ The command will create an folder under ```log/Chimney/``` which saves all the c
 [Dropbox](https://www.dropbox.com/s/h43mw561ilgi8or/Chimney.zip?dl=0)
 
 ## <img src="https://image.flaticon.com/icons/png/512/816/816167.png" width="25"/> Datasets
-##### Adversarial Face Dataset: 
+### Adversarial Face Dataset: 
 [Dropbox](https://www.dropbox.com/s/zapovarnswznlwt/to_ship.tar.xz?dl=0)
-##### Digital Attack Dataset:
+### Digital Attack Dataset:
 Digital manipulation attacks are generated via publicly available author codes:
 
 • [DeepFake/Face2Face/FaceSwap](https://github.com/ondyari/FaceForensics)
@@ -68,7 +68,7 @@ Digital manipulation attacks are generated via publicly available author codes:
 
 • [DFFD](http://cvlab.cse.msu.edu/dffd-diverse-fake-face-dataset.html)
 
-##### Physical Attack Dataset:
+### Physical Attack Dataset:
 • [SiW](http://cvlab.cse.msu.edu/siw-spoof-in-the-wild-database.html)
 
 <!-- LICENSE -->

@@ -154,4 +154,4 @@ cython_debug/
 log
 data
 Archive-2
-models
+models/*

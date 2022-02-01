@@ -58,10 +58,15 @@ The command will create an folder under ```log/Chimney/``` which saves all the c
 ##### Digital Attack Dataset:
 Digital manipulation attacks are generated via publicly available author codes:
 • [DeepFake/Face2Face/FaceSwap](https://github.com/ondyari/FaceForensics)
+
 • [STGAN](https://github.com/csmliu/STGAN)
+
 • [StarGAN](https://github.com/yunjey/stargan)
+
 • [STGAN](https://github.com/NVlabs/stylegan2)
+
 • [DFFD](http://cvlab.cse.msu.edu/dffd-diverse-fake-face-dataset.html)
+
 ##### Physical Attack Dataset:
 • [SiW](http://cvlab.cse.msu.edu/siw-spoof-in-the-wild-database.html)
 
